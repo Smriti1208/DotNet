@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-size: 100px;
+  row-gap: 50px;
+  
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="email"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+input[type="name"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+input[type="btn"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+ 
+
+
+.App-header {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: palevioletred;
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
